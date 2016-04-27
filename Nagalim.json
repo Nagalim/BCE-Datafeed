@@ -6,13 +6,78 @@
     "motions" : [
     ],
     "fees" : {
+        "8" : 0.01,
+        "C" : 0.01
     },
     "reputations" : [
     ],
     "signerreward" : {
-        "count" : null,
-        "amount" : null
+        "count" : 2,
+        "amount" : 0.01
     },
     "assets" : [
+        {
+            "assetid" : "BKC",
+            "confirmations" : 15,
+            "reqsigners" : 3,
+            "totalsigners" : 6,
+            "maxtrade" : 1.0,
+            "mintrade" : 0.01,
+            "unitexponent" : 4
+        },
+        {
+            "assetid" : "BKS",
+            "confirmations" : 15,
+            "reqsigners" : 3,
+            "totalsigners" : 6,
+            "maxtrade" : 1.0,
+            "mintrade" : 0.01,
+            "unitexponent" : 4
+        },
+        {
+            "assetid" : "BTC",
+            "confirmations" : 2,
+            "reqsigners" : 3,
+            "totalsigners" : 6,
+            "maxtrade" : 0.01,
+            "mintrade" : 0.0001,
+            "unitexponent" : 8
+        },
+        {
+            "assetid" : "LTC",
+            "confirmations" : 6,
+            "reqsigners" : 3,
+            "totalsigners" : 6,
+            "maxtrade" : 1.0,
+            "mintrade" : 0.001,
+            "unitexponent" : 8
+        },
+        {
+            "assetid" : "NBT",
+            "confirmations" : 15,
+            "reqsigners" : 3,
+            "totalsigners" : 6,
+            "maxtrade" : 1.0,
+            "mintrade" : 0.01,
+            "unitexponent" : 4
+        },
+        {
+            "assetid" : "NSR",
+            "confirmations" : 15,
+            "reqsigners" : 3,
+            "totalsigners" : 6,
+            "maxtrade" : 1000.0,
+            "mintrade" : 1.0,
+            "unitexponent" : 8
+        },
+        {
+            "assetid" : "PPC",
+            "confirmations" : 6,
+            "reqsigners" : 3,
+            "totalsigners" : 6,
+            "maxtrade" : 10.0,
+            "mintrade" : 0.01,
+            "unitexponent" : 6
+        }
     ]
 }
